@@ -24,8 +24,8 @@ const ThemeToggle = () => {
   return (
     <button
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-      className="p-2 rounded-full border dark:border-zinc-600 border-gray-300 
-                 bg-gray-100 dark:bg-zinc-800 hover:bg-gray-200 dark:hover:bg-zinc-700
+      className="p-2 rounded-full border dark:border-zinc-700 border-slate-300 
+                 bg-slate-200 dark:bg-zinc-800 hover:bg-slate-300 dark:hover:bg-zinc-700
                  transition-all"
     >
       <motion.img
