@@ -24,7 +24,7 @@ const ThemeToggle = () => {
   return (
     <button
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-      className="p-2 rounded-full border dark:border-zinc-700 border-slate-300 
+      className="p-2 rounded-tr-xl rounded-bl-xl lg:rounded-full border dark:border-zinc-700 border-slate-300 
                  bg-slate-200 dark:bg-zinc-800 hover:bg-slate-300 dark:hover:bg-zinc-700
                  transition-all"
     >

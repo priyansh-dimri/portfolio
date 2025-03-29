@@ -16,19 +16,30 @@ const NavPanel = () => {
       className="bg-slate-200 dark:bg-zinc-800 
       border border-slate-300 dark:border-zinc-700
       p-4 rounded-xl
-      flex flex-col text-center items-center w-full max-w-full overflow-hidden"
+      text-center items-center w-full max-w-full overflow-hidden
+      grid grid-cols-2 gap-4 lg:flex lg:flex-col"
     >
-      <ImageComponent src={profilePicture} alt="Profile Picture" />
-      <p className="text-xl py-2 font-semibold">Priyansh Dimri</p>
-      <p>
-        <Badge text={"Software Engineer"} />
-      </p>
+      <div className="grid grid-cols-[auto_1fr] lg:flex lg:flex-col lg:justify-center lg:items-center col-span-2 gap-4 lg:gap-0">
+        <div className="row-span-2">
+          <ImageComponent
+            src={profilePicture}
+            alt="Profile Picture"
+            className="row-span-2"
+          />
+        </div>
+        <p className="text-xl lg:py-2 font-semibold text-start self-end ">
+          Priyansh Dimri
+        </p>
+        <p className="text-start">
+          <Badge text={"Software Engineer"} />
+        </p>
+      </div>
 
       <motion.hr
         initial={{ opacity: 0, width: "0%" }}
         animate={{ opacity: 1, width: "100%" }}
         transition={{ duration: 0.5, delay: 0.5 }}
-        className="border-t border-gray-300 dark:border-zinc-700 my-4 w-full"
+        className="border-t border-gray-300 dark:border-zinc-700 my-4 w-full col-span-2"
       />
 
       <InfoCard
@@ -44,7 +55,12 @@ const NavPanel = () => {
         label="LOCATION"
         value="Delhi, India"
       />
-      <ThemeToggle />
+      <div className="hidden lg:block">
+        <ThemeToggle />
+      </div>
+      <div className="lg:hidden absolute top-8 right-6">
+        <ThemeToggle />
+      </div>
     </motion.div>
   );
 };
