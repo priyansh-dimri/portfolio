@@ -4,6 +4,7 @@ import location from "../assets/images/location.svg";
 import Badge from "../components/Badge";
 import ImageComponent from "../components/ImageComponent";
 import InfoCard from "../components/InfoCard";
+import ThemeToggle from "../components/ThemeToggle";
 import { motion } from "framer-motion";
 
 const NavPanel = () => {
@@ -22,7 +23,7 @@ const NavPanel = () => {
       <p>
         <Badge text={"Software Engineer"} />
       </p>
-      
+
       <motion.hr
         initial={{ opacity: 0, width: "0%" }}
         animate={{ opacity: 1, width: "100%" }}
@@ -43,6 +44,7 @@ const NavPanel = () => {
         label="LOCATION"
         value="Delhi, India"
       />
+      <ThemeToggle />
     </motion.div>
   );
 };
