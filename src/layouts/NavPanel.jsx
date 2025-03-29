@@ -4,10 +4,14 @@ import location from "../assets/images/location.svg";
 import Badge from "../components/Badge";
 import ImageComponent from "../components/ImageComponent";
 import InfoCard from "../components/InfoCard";
+import { motion } from "framer-motion";
 
 const NavPanel = () => {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, ease: "easeOut" }}
       className="bg-slate-200 dark:bg-zinc-800 
       border border-slate-300 dark:border-zinc-700
       p-4 rounded-xl
@@ -18,7 +22,13 @@ const NavPanel = () => {
       <p>
         <Badge text={"Software Engineer"} />
       </p>
-      <hr className="border-t border-gray-300 dark:border-zinc-700 my-4 w-full" />
+      
+      <motion.hr
+        initial={{ opacity: 0, width: "0%" }}
+        animate={{ opacity: 1, width: "100%" }}
+        transition={{ duration: 0.5, delay: 0.5 }}
+        className="border-t border-gray-300 dark:border-zinc-700 my-4 w-full"
+      />
 
       <InfoCard
         icon={email}
@@ -33,7 +43,7 @@ const NavPanel = () => {
         label="LOCATION"
         value="Delhi, India"
       />
-    </div>
+    </motion.div>
   );
 };
 
