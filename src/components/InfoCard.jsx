@@ -1,0 +1,27 @@
+import ImageComponent from "./ImageComponent";
+
+const InfoCard = ({ icon, label, value, alt = "Icon" }) => {
+  return (
+    <div className="flex items-center gap-2 w-full mb-4">
+      <ImageComponent
+        src={icon}
+        alt={alt}
+        size={48}
+        className="flex-shrink-0"
+      />
+
+      <div className="flex flex-col items-start overflow-hidden flex-1 text-left">
+        <p className="text-xs uppercase tracking-wide text-gray-400">{label}</p>
+        <p
+          className="text-xs font-medium 
+        text-gray-200 truncate w-full overflow-hidden 
+        whitespace-nowrap text-ellipsis text-left"
+        >
+          {value}
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default InfoCard;
