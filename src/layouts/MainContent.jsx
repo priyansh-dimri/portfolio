@@ -22,7 +22,7 @@ const MainContent = () => {
         <Navbar setActiveView={setActiveView} activeView={activeView} />
       </div>
 
-      <div className="mt-4">
+      <div className="my-4">
         {activeView === "about" && <About />}
         {activeView === "projects" && <Projects />}
         {activeView === "contact" && <Contact />}

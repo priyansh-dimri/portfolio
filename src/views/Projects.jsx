@@ -1,3 +1,5 @@
+import GradientBar from "../components/GradientBar";
+
 const Projects = () => {
   return (
     <div className="ml-2">

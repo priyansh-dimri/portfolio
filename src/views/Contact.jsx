@@ -1,3 +1,5 @@
+import GradientBar from "../components/GradientBar";
+
 const Contact = () => {
   return (
     <div className="ml-2">

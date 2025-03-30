@@ -1,5 +1,5 @@
 import DevIcon from "../assets/images/website.svg";
-import DbIcon from "../assets/images/database2.svg";
+import DbIcon from "../assets/images/database.svg";
 import ToolsIcon from "../assets/images/tools.svg";
 import DsaIcon from "../assets/images/problem-solving.svg";
 

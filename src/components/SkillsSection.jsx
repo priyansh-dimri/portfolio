@@ -7,7 +7,10 @@ const SkillsSection = () => {
       {skillsData.map((section, index) => (
         <div
           key={index}
-          className="flex gap-4 items-start p-4 bg-white dark:bg-zinc-800 border border-gray-300 dark:border-zinc-700 rounded-xl shadow-sm"
+          className="flex gap-4 items-start p-5
+            bg-slate-200 dark:bg-zinc-800
+            border border-r-0 border-b-0 border-gray-300 dark:border-zinc-700
+            rounded-xl shadow-[1px_1px_2px_rgba(0,0,0,0.05)]"
         >
           <img
             src={section.icon}

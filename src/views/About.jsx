@@ -3,7 +3,7 @@ import SkillsSection from "../components/SkillsSection";
 
 const About = () => {
   return (
-    <div className="ml-2">
+    <div className="mx-2">
       <div className="text-2xl font-bold">About Me</div>
       <GradientBar />
       <div className="text-sm font-light font-['Manrope'] my-3">
@@ -21,7 +21,7 @@ const About = () => {
       <div className="text-sm font-light font-['Manrope'] my-3">
         🚀 Let’s build something impactful.
       </div>
-      <div className="text-2xl font-bold mt-8">Skills</div>
+      <div className="text-2xl font-bold mt-8 mb-3">Skills</div>
       <SkillsSection />
     </div>
   );
