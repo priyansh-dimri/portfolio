@@ -1,4 +1,5 @@
 import GradientBar from "../components/GradientBar";
+import SkillsSection from "../components/SkillsSection";
 
 const About = () => {
   return (
@@ -21,6 +22,7 @@ const About = () => {
         🚀 Let’s build something impactful.
       </div>
       <div className="text-2xl font-bold mt-8">Skills</div>
+      <SkillsSection />
     </div>
   );
 };
