@@ -1,5 +1,4 @@
 import MainContent from "./layouts/MainContent";
-import MobileNav from "./layouts/MobileNav";
 import NavPanel from "./layouts/NavPanel";
 
 function App() {
@@ -11,7 +10,6 @@ function App() {
     >
       <NavPanel />
       <MainContent />
-      {/* <MobileNav/> Only for mobiles */}
     </div>
   );
 }
