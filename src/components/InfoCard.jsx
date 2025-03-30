@@ -2,7 +2,7 @@ import ImageComponent from "./ImageComponent";
 
 const InfoCard = ({ icon, label, value, alt = "Icon" }) => {
   return (
-    <div className="flex items-center gap-2 w-full mb-4">
+    <div className="flex items-center gap-2 w-full mb-4 col-span-2 sm:col-span-1">
       <ImageComponent
         src={icon}
         alt={alt}
