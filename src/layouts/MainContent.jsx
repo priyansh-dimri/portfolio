@@ -1,8 +1,9 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 import About from "../views/About";
-import Projects from "../views/Projects";
-import Contact from "../views/Contact";
+import Experience from "../views/Experience";
+import Portfolio from "../views/Portfolio";
+import Profiles from "../views/Profiles";
 
 const MainContent = () => {
   const [activeView, setActiveView] = useState("about");
@@ -24,8 +25,9 @@ const MainContent = () => {
 
       <div className="my-4">
         {activeView === "about" && <About />}
-        {activeView === "projects" && <Projects />}
-        {activeView === "contact" && <Contact />}
+        {activeView === "experience" && <Experience />}
+        {activeView === "portfolio" && <Portfolio />}
+        {activeView === "profiles" && <Profiles />}
       </div>
     </div>
   );

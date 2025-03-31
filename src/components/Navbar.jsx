@@ -1,10 +1,9 @@
 const Navbar = ({ activeView, setActiveView }) => {
-  console.log(activeView);
   return (
     <nav className="gap-7 sm:px-7 py-4 font-['Manrope']
       text-xs font-medium sm:font-bold
       flex justify-center sm:justify-end">
-      {["about", "projects", "contact"].map((view) => (
+      {["about", "experience", "portfolio", "profiles"].map((view) => (
         <button
           key={view}
           onClick={() => setActiveView(view)}
