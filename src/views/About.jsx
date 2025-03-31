@@ -1,5 +1,6 @@
+import CurrentlyExploring from "../components/CurrentlyExploring";
 import GradientBar from "../components/GradientBar";
-import SkillsSection from "../components/SkillsSection";
+import WhatIDo from "../components/WhatIDo";
 
 const About = () => {
   return (
@@ -20,34 +21,11 @@ const About = () => {
         .
       </div>
 
-      {/* <div className="grid sm:grid-cols-2 gap-6 mt-6">
-        <div className="p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 bg-white dark:bg-zinc-800">
-          <h3 className="text-lg font-semibold mb-2">What I Do</h3>
-          <p className="text-sm text-gray-600 dark:text-gray-300">
-            I specialize in{" "}
-            <strong>full-stack web development and cybersecurity</strong>,
-            ensuring applications are built with{" "}
-            <strong>performance, security, and scalability</strong> in mind.
-          </p>
-        </div>
+      <div className="text-2xl font-bold mt-8 mb-3">What I Do</div>
+      <WhatIDo />
 
-        <div className="p-6 rounded-lg shadow-md border border-gray-200 dark:border-gray-700 bg-white dark:bg-zinc-800">
-          <h3 className="text-lg font-semibold mb-2">Currently Exploring</h3>
-          <ul className="text-sm text-gray-600 dark:text-gray-300 list-disc list-inside space-y-1">
-            <li>
-              Advanced **cybersecurity techniques** (penetration testing, secure
-              coding)
-            </li>
-            <li>
-              Optimized **full-stack architectures** for better scalability &
-              security
-            </li>
-            <li>
-              Efficient **developer workflows** to enhance productivity 🚀
-            </li>
-          </ul>
-        </div>
-      </div> */}
+      <div className="text-2xl font-bold mt-8 mb-3">Currently Exploring</div>
+      <CurrentlyExploring />
     </div>
   );
 };

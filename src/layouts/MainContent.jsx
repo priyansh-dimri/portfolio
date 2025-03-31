@@ -18,7 +18,7 @@ const MainContent = () => {
         border border-slate-300 dark:border-zinc-700
         border-b-0 rounded-tl-xl rounded-tr-xl border-l-0 border-r-0
         sm:rounded-tr-xl sm:rounded-bl-xl sm:border-l sm:rounded-tl-none sm:border-t-0 sm:border-b
-        bg-slate-200/40 dark:bg-zinc-800/40 backdrop-blur-md"
+        bg-slate-200/40 dark:bg-zinc-800/40 backdrop-blur-md z-50"
       >
         <Navbar setActiveView={setActiveView} activeView={activeView} />
       </div>
