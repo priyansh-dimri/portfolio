@@ -21,10 +21,10 @@ const About = () => {
         .
       </div>
 
-      <div className="text-2xl font-bold mt-8 mb-3">What I Do</div>
+      <div className="text-xl font-bold mt-8 mb-3">What I Do</div>
       <WhatIDo />
 
-      <div className="text-2xl font-bold mt-8 mb-3">Currently Exploring</div>
+      <div className="text-xl font-bold mt-8 mb-3">Currently Exploring</div>
       <CurrentlyExploring />
     </div>
   );

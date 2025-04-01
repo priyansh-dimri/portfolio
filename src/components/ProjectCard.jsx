@@ -54,7 +54,7 @@ const ProjectCard = ({
       </div>
 
       <h3 className="text-lg font-semibold mt-3">{title}</h3>
-      <p className="text-sm text-gray-600 dark:text-gray-300 mt-1">
+      <p className="text-sm text-zinc-600 dark:text-slate-300 mt-1">
         {description}
       </p>
       <div className="flex flex-wrap gap-2 my-2">
