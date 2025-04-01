@@ -7,7 +7,7 @@ const About = () => {
     <div className="mx-2">
       <div className="text-2xl font-bold">About Me</div>
       <GradientBar />
-      <div className="text-sm font-light font-['Manrope'] my-3">
+      <div className="text-sm font-light font-['Manrope'] my-3 mt-4">
         I’m a <strong>problem solver and tech enthusiast</strong> passionate
         about building <strong>scalable, efficient, and secure systems</strong>.
         With a deep understanding of{" "}
