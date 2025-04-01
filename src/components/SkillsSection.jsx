@@ -1,4 +1,3 @@
-import { motion } from "framer-motion";
 import skillsData from "./SkillsData";
 import Badge from "./Badge";
 
@@ -6,11 +5,8 @@ const SkillsSection = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
       {skillsData.map((section, index) => (
-        <motion.div
+        <div
           key={index}
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: index * 0.2 }}
           className="flex gap-4 items-start p-5
             bg-slate-200 dark:bg-zinc-800
             border border-r-0 border-b-0 border-gray-300 dark:border-zinc-700
@@ -32,7 +28,7 @@ const SkillsSection = () => {
               ))}
             </div>
           </div>
-        </motion.div>
+        </div>
       ))}
     </div>
   );
