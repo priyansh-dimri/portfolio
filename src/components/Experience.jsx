@@ -15,7 +15,6 @@ const Experience = () => {
               className="relative z-10"
             />
             <h2 className="text-2xl font-bold">{section.category}</h2>
-            <div className="absolute left-[25px] top-[50%] bottom-0 w-[1.5px] bg-slate-300 dark:bg-zinc-700 z-10"></div>{" "}
           </div>
 
           {/* Experience/Education Items */}
