@@ -33,8 +33,12 @@ const NavPanel = () => {
       grid grid-cols-2 gap-4 lg:flex lg:flex-col lg:self-start"
     >
       <div className="flex flex-col justify-center items-center sm:grid sm:grid-cols-[auto_1fr] lg:flex lg:flex-col lg:justify-center lg:items-center col-span-2 gap-4 lg:gap-0">
-        <ImageComponent src={profilePicture} alt="Profile Picture" className="row-span-2" />
-        <p className="text-xl lg:py-2 font-semibold text-start sm:self-end">Priyansh Dimri</p>
+        <div className="row-span-2">
+          <ImageComponent src={profilePicture} alt="Profile Picture" />
+        </div>
+        <p className="text-xl lg:py-2 font-semibold text-start sm:self-end">
+          Priyansh Dimri
+        </p>
         <p className="sm:text-start sm:self-start lg:self-center">
           <Badge text="Software Engineer" />
         </p>
@@ -48,8 +52,18 @@ const NavPanel = () => {
         className="border-t border-gray-300 dark:border-zinc-700 my-4 w-full col-span-2"
       />
 
-      <InfoCard icon={email} alt="Email" label="EMAIL" value="priyanshd0908@gmail.com" />
-      <InfoCard icon={location} alt="Location" label="LOCATION" value="Delhi, India" />
+      <InfoCard
+        icon={email}
+        alt="Email"
+        label="EMAIL"
+        value="priyanshd0908@gmail.com"
+      />
+      <InfoCard
+        icon={location}
+        alt="Location"
+        label="LOCATION"
+        value="Delhi, India"
+      />
 
       <div className="hidden lg:block">
         <ThemeToggle />
