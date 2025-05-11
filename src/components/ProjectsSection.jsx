@@ -1,17 +1,28 @@
 import ProjectCard from "./ProjectCard";
-import MemoryCard from "../assets/images/projects/memory-card-game.png";
+import Encra from "../assets/images/projects/encra.png";
 import WeatherApp from "../assets/images/projects/weather-app.png";
 import TodoApp from "../assets/images/projects/todo.png";
 
 const projects = [
   {
-    title: "Memory Card Game",
+    title: "Encra",
     description:
-      "A fun memory-based card game where players match pairs within a limited number of moves.",
-    techStack: ["HTML", "CSS", "JavaScript"],
-    liveLink: "https://me-mory-card-game.netlify.app/",
-    repoLink: "https://github.com/priyansh-dimri/memory-card",
-    image: MemoryCard,
+      "Encra is a full-stack, end-to-end encrypted messaging platform featuring post-quantum key exchange, real-time Socket.IO messaging, and AES-256 hybrid encryption. Built with scalability, security, and performance in mind.",
+    techStack: [
+      "React",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Socket.IO",
+      "Post-Quantum Cryptography",
+      "AES-256",
+      "JWT",
+      "Argon2",
+      "MUI",
+    ],
+    liveLink: "https://encra-git-main-priyansh-dimris-projects.vercel.app/",
+    repoLink: "https://github.com/priyansh-dimri/encra",
+    image: Encra,
   },
   {
     title: "Weather App",
@@ -32,7 +43,6 @@ const projects = [
     image: TodoApp,
   },
 ];
-
 
 const ProjectsSection = () => {
   return (
