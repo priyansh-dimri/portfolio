@@ -1,4 +1,4 @@
-import profilePicture from "../assets/images/profilePicture.png";
+import profilePicture from "../assets/images/profileImage.png";
 import email from "../assets/images/email.svg";
 import location from "../assets/images/location.svg";
 import Badge from "../components/Badge";
