@@ -1,4 +1,5 @@
 import ExternalLink from "../assets/images/external-link.svg";
+import VideoLink from "../assets/images/video-link.svg";
 import Github from "../assets/images/github.svg";
 import Badge from "./Badge";
 
@@ -8,6 +9,7 @@ const ProjectCard = ({
   techStack,
   liveLink,
   repoLink,
+  videoLink,
   image,
 }) => {
   return (
@@ -38,6 +40,16 @@ const ProjectCard = ({
               className="bg-white dark:bg-zinc-700 p-1.5 rounded-full shadow"
             >
               <img src={ExternalLink} alt="Live Demo" className="w-5 h-5" />
+            </a>
+          )}
+          {videoLink && (
+            <a
+              href={videoLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white dark:bg-zinc-700 p-1.5 rounded-full shadow"
+            >
+              <img src={VideoLink} alt="Live Demo" className="w-5 h-5" />
             </a>
           )}
           {repoLink && (

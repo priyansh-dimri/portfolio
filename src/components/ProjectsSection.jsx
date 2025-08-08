@@ -22,6 +22,7 @@ const projects = [
     ],
     liveLink: "https://encra-git-main-priyansh-dimris-projects.vercel.app/",
     repoLink: "https://github.com/priyansh-dimri/encra",
+    videoLink: "https://youtu.be/VvuvK6gCZds",
     image: Encra,
   },
   {
