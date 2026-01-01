@@ -1,9 +1,9 @@
 import Badge from "./Badge";
 
 const exploringTopics = [
-  "Optimized full-stack architectures for better scalability & security",
-  "Advanced cybersecurity techniques (penetration testing, secure coding)",
-  "Efficient developer workflows to enhance productivity",
+  "Designing low-latency, fault-tolerant backend systems",
+  "Performance optimization across the stack (CPU, memory, I/O, concurrency)",
+  "System design trade-offs in distributed and security-critical systems",
 ];
 
 const CurrentlyExploring = () => {
