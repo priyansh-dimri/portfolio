@@ -4,12 +4,18 @@ import LeetCode from "../assets/images/leetcode.svg";
 import Codeforces from "../assets/images/codeforces.svg";
 import CodeChef from "../assets/images/codechef.svg";
 import Email from "../assets/images/email.svg";
+import Blog from "../assets/images/hashnode.svg"
 
 const profilesData = [
   {
     title: "GitHub",
     link: "https://github.com/priyansh-dimri",
     icon: Github,
+  },
+  {
+    title: "Blog",
+    link: "https://priyanshdimri.hashnode.dev",
+    icon: Blog,
   },
   {
     title: "LinkedIn",
