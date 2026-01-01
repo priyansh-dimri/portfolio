@@ -1,9 +1,30 @@
 import ProjectCard from "./ProjectCard";
+import Argus from "../assets/images/projects/argus.png";
 import Encra from "../assets/images/projects/encra.png";
 import WeatherApp from "../assets/images/projects/weather-app.png";
 import TodoApp from "../assets/images/projects/todo.png";
 
 const projects = [
+  {
+    title: "Argus",
+    description:
+      "Argus is a Hybrid AI Web Application Firewall (WAF) written in Go. It aims to solves the trade off between Latency and Context by merging the speed of deterministic pattern matching with the deep contextual understanding of probabilistic AI models.",
+    techStack: [
+      "Go",
+      "Web Application Firewall (WAF)",
+      "API Security",
+      "Fault Tolerance",
+      "AI-based Threat Detection",
+      "NextJS",
+      "ShadCN",
+      "Test-driven Development",
+      "Docker",
+    ],
+    liveLink: "https://argusguard.vercel.app/",
+    repoLink: "https://github.com/priyansh-dimri/argus",
+    videoLink: "https://youtu.be/c4e-IWY4Fps",
+    image: Argus,
+  },
   {
     title: "Encra",
     description:
