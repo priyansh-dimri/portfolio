@@ -1,9 +1,9 @@
 import Badge from "./Badge";
 
 const exploringTopics = [
-  "Designing low-latency, fault-tolerant backend systems",
-  "Performance optimization across the stack (CPU, memory, I/O, concurrency)",
-  "System design trade-offs in distributed and security-critical systems",
+  "Building high-performance systems with efficient memory layouts, SIMD, and parallel execution",
+  "Distributed systems, fault tolerance, and scalable backend architecture",
+  "Query optimization, storage engines, and the design trade-offs behind modern databases",
 ];
 
 const CurrentlyExploring = () => {

@@ -8,17 +8,11 @@ const About = () => {
       <div className="text-2xl font-bold">About Me</div>
       <GradientBar />
       <div className="text-sm font-light font-['Manrope'] my-3 mt-4">
-        I’m a <strong>problem solver and tech enthusiast</strong> passionate
-        about building <strong>scalable, efficient, and secure systems</strong>.
-        With a deep understanding of{" "}
-        <strong>web technologies and cybersecurity</strong>, I design
-        <strong> high-performance applications</strong> that seamlessly
-        integrate
-        <strong>
-          {" "}
-          security, functionality, and exceptional user experience
-        </strong>
-        .
+        I'm a software engineering student who enjoys building high-performance
+        backend systems and exploring the engineering trade-offs behind them. My
+        projects span database internals, application security, and distributed
+        backend services, with a focus on writing reliable, maintainable, and
+        efficient software.
       </div>
 
       <div className="text-xl font-bold mt-8 mb-3">What I Do</div>
